@@ -1,0 +1,169 @@
+:root {
+  /*--fuentePrincipal: 'Poppins', sans-serif;*/
+  --fuentePrincipal: 'Outfit', sans-serif;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: var(--fuentePrincipal);
+  font-size: 1.6rem;
+  line-height: 1.8;
+  background-color: white;
+}
+h1, h2, h3 {
+  font-weight: 900;
+  margin: 2rem 0;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 4.6rem;
+}
+h3 {
+  font-size: 3rem;
+}
+
+.contenedor {  
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.select{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.select h1{
+  text-align: center;
+  font-weight: 200;
+  padding: 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.button{
+  margin: 1rem auto;
+  display: block;
+  width: 50%;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.container-select{
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  gap: 2rem;
+}
+
+.container-select input[type="date"]{
+  background-color: #834E91;
+  color: #fff;
+  padding: 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  width: 50%;
+}
+
+.container-select input[type="date"]::-webkit-calendar-picker-indicator{
+  background-color: #fff;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+.title{
+  text-align: center;
+  color: #211645;
+}
+
+.card{
+  color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.card-sign{
+  display: inline-block;
+  background-color: #FFF298;
+  color: black; 
+  padding: 1rem 5rem;
+  border-radius: 2rem;
+  font-weight: 800;
+  box-shadow: 0 0 2rem 0.4rem #FFF298;
+
+}
+
+.card-information{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-general{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  font-weight: 600;
+}
+
+.card-general p{
+  text-align: center;
+  margin: 0;
+}
+
+.card-general{
+  color: white;
+  font-weight: 400;
+}
+
+.card-general .result{
+  color: #DF93BD;
+  font-weight: 600;
+}
+
+.card-description{
+  color: white;
+  font-weight: 600;
+}
+
+.description{
+  color: wheat;
+  font-weight: 400;
+  text-align: justify;
+  margin: 0;
+}
+
+/********* TEST *******/
+.test{
+  padding: 2rem;
+  margin-top: 5rem;
+  border-radius: 3rem;
+  background-color: #432A65;
+}
+
+.button{
+  width: 50%;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: 0;
+}

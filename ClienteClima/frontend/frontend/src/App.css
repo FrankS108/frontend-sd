@@ -1,0 +1,95 @@
+:root {
+  /*--fuentePrincipal: 'Poppins', sans-serif;*/
+  --fuentePrincipal: 'Outfit', sans-serif;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: var(--fuentePrincipal);
+  font-size: 1.6rem;
+  line-height: 1.8;
+  background-color: white;
+}
+h1, h2, h3 {
+  font-weight: 900;
+  margin: 2rem 0;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 4.6rem;
+}
+h3 {
+  font-size: 3rem;
+}
+
+.contenedor {  
+  max-width: 120rem;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.select{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.select h1{
+  text-align: center;
+  font-weight: 200;
+  padding: 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.button{
+  margin: 1rem auto;
+  display: block;
+  width: 50%;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+/* Card Weather */
+.container-card{
+  border-radius: 2rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.container-card .day{
+  min-width: 11rem;
+  max-width: 11rem;
+}
+
+.container-error{
+  border-radius: 2rem;
+  font-weight: 700;
+  background-color: #DA260A;
+  margin: 1rem auto;
+  width: 50%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.container-card-controller{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
